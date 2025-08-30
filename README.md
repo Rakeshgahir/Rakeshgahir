@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Cybersecurity KQL Arsenal - 10,000+ Queries</title>
+    <title>Advanced Cybersecurity KQL By Rakesh gahir - 10,000+ Queries</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .query-card {
@@ -743,7 +742,7 @@
                         </div>
                         
                         <div class="bg-gray-700/50 rounded-lg p-4">
-                            <h4 class="font-semibold mb-3 text-white">🏷️ Tags</h4>  
+                            <h4 class="font-semibold mb-3 text-white">🏷️ Tags</h4>
                             <div class="flex flex-wrap gap-2">
                                 ${query.tags.map(tag => `<span class="bg-blue-600/20 text-blue-300 px-2 py-1 rounded text-sm border border-blue-500/30">${tag}</span>`).join('')}
                             </div>
